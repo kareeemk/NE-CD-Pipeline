@@ -1,5 +1,4 @@
-# NE-CD-Pipeline
-Homogeneous Community Detection On Heterogeneous Information Networks: A Node Embedding Approach
+# Homogeneous Community Detection On Heterogeneous Information Networks: A Node Embedding Approach
 
 This thesis proposes a pipeline approach to tackle the challenge of community detection (CD) on static heterogeneous information networks (HINs) using node embedding (NE) in conjunction with homogeneous modularity-based algorithms. It leverages NE techniques (i.e., JUST, Metaptah2Vec) to transform an HIN into a weighted homogeneous network by calculating vector similarity distances in the latent low-dimensional embedding space for each node, and then projecting them as edge weights onto a topologically identical homogeneous counterpart of the HIN. A homogeneous modularity-based CD algorithm (i.e., Louvain, Leiden) can then run on the weighted homogeneous graph to identify community structures. This method attempts to both preserve the high-order semantic meaning and topological structure of the original heterogeneous HIN whilst circumventing the necessity for specialized  heterogeneous CD algorithms.
 
